@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">T201_comidas</string>
+
+    <!-- Mensajes de error -->
+    <string name="empty_not_allowed">Los campos no pueden estar vacíos.</string>
+    <string name="no_time_or_date_selected">Debes selecciona una fecha y una hora.</string>
+    <string name="incorrect_datetime">La fecha y hora de recogida deben estar entre las 19:30 y las 23 de martes a domingo.</string>
+    <string name="whatsapp_not_installed">WhatsApp no está instalado.</string>
+
+    <!-- Botones -->
+    <string name="tab_platos">Platos</string>>
+    <string name="tab_pedidos">Pedidos</string>>
+    <string name="add_pedido">Añadir pedido</string>
+    <string name="date">Fecha de recogida</string>
+    <string name="time">Hora de recogida</string>
+    <string name="add_plato_to_pedido">Platos</string>
+    <string name="new_pedido">Nuevo pedido</string>
+    <string name="save">Guardar</string>>
+
+    <!-- Menús contextuales -->
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_send">Enviar</string>
+
+    <!-- Platos -->
+    <string name="ingredientes">Ingredientes</string>
+    <string name="precio">Precio</string>
+    <string name="hint_nombre_plato">Nombre del plato</string>>
+    <string name="hint_ingredientes_plato">Ingredientes...</string>>
+    <string name="hint_precio_plato">Precio...</string>>
+    <string name="categoria_primero">Primero</string>
+    <string name="categoria_segundo">Segundo</string>
+    <string name="categoria_postre">Postre</string>
+    <string name="deleting_plato">Borrando plato </string>
+
+    <!-- Pedidos -->
+    <string name="hint_nombre_cliente">Nombre del cliente...</string>
+    <string name="hint_telefono_cliente">Teléfono del cliente...</string>
+    <string name="hint_estado_pedido">Estado...</string>
+    <string name="hint_fecha_hora">Fecha y hora</string>
+    <string name="estado_solicitado">Solicitado</string>
+    <string name="estado_preparado">Preparado</string>
+    <string name="estado_recogido">Recogido</string>
+    <string name="pre_id_pedido">Pedido #</string>
+    <string name="deleting_pedido">Borrando pedido de </string>
+
+    <!-- Orden -->
+    <string name="sort_by">Ordenar por:</string>
+    <string name="sort_by_nombre_plato">Nombre</string>
+    <string name="sort_by_nombre_cliente">Nombre del cliente</string>
+    <string name="sort_by_num_movil">Número de móvil</string>
+    <string name="sort_by_fecha_hora">Fecha y hora</string>
+
+    <!-- Selección de plato -->
+    <string name="select_plato">Selecciona un plato</string>
+
+    <!-- Pruebas -->
+    <string name="menu_pruebas">Pruebas del sistema</string>
+    <string name="test_ended_message">Prueba finalizada</string>
+    <string name="prueba_1">Prueba de caja</string>
+    <string name="prueba_2">Prueba de volumen</string>
+    <string name="prueba_3">Prueba de sobrecarga</string>
+
+</resources>

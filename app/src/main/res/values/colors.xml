@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7ebce6</color>
+    <color name="colorAccent">#f3a582</color>
+    <color name="colorPrimaryDark">#8980f5</color>
+    <color name="colorAccentDark">#d7374a</color>
+    <color name="colorTabText">@color/material_dynamic_neutral60</color>
+    <color name="colorTabTextDark">@color/material_dynamic_neutral70</color>
+    <color name="colorBackground">#5CF3A582</color>
+    <color name="colorBackgroundDark">#5CD7374A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

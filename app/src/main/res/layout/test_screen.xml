@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_pruebas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/buttonCancel"
+                style="@style/TransparentButton"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:backgroundTint="#00FFFFFF"
+                android:drawableStart="@drawable/close_24px"
+                android:drawableLeft="@drawable/close_24px" />
+
+            <TextView
+                android:text="@string/menu_pruebas"
+                android:textStyle="bold"
+                android:layout_width="216dp"
+                android:layout_height="60dp"
+                android:layout_margin="@dimen/big_padding"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/min_height"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonCaja"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="?attr/elementBackground"
+            android:textAllCaps="false"
+            android:visibility="visible"
+            android:text="@string/prueba_1" />
+
+        <Button
+            android:id="@+id/buttonVolumen"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="?attr/elementBackground"
+            android:textAllCaps="false"
+            android:visibility="visible"
+            android:text="@string/prueba_2" />
+
+        <Button
+            android:id="@+id/buttonSobrecarga"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="?attr/elementBackground"
+            android:textAllCaps="false"
+            android:visibility="visible"
+            android:text="@string/prueba_3" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

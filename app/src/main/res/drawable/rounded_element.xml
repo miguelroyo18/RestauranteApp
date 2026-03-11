@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/rounded_element_background" />
+    <item
+        android:left="30dp"
+        android:right="30dp"
+        android:drawable="@android:color/transparent" />
+</layer-list>

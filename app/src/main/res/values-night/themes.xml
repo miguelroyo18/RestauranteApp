@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.T201_Comidas" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccentDark</item>
+        <item name="editTextStyle">@style/EditTextTheme</item>
+        <item name="inputTextColor">@color/white</item>
+
+        <item name="buttonBackground">@color/colorAccentDark</item>
+        <item name="buttonPrimaryBackground">@color/colorPrimaryDark</item>
+        <item name="elementBackground">@color/colorAccentDark</item>
+        <item name="recyclerElementBackground">@color/colorBackgroundDark</item>
+        <item name="tabColor">@color/colorAccentDark</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="spinnerTextColor">@color/white</item>
+    </style>
+</resources>

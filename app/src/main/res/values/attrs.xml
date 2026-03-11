@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="buttonBackground" format="reference|color"/>
+    <attr name="buttonPrimaryBackground" format="reference|color"/>
+    <attr name="elementBackground" format="reference|color"/>
+    <attr name="recyclerElementBackground" format="reference|color"/>
+    <attr name="tabColor" format="reference|color"/>
+    <attr name="buttonText" format="reference|color"/>
+    <attr name="inputTextColor" format="reference|color"/>
+    <attr name="spinnerTextColor" format="reference|color"/>
+</resources>

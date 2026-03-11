@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="14dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/recycler_item_pedido_background">
+
+    <TextView
+        android:id="@+id/nombrePlatoListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:layout_marginLeft="@dimen/small_padding"
+        android:ellipsize="end"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonDecreaseRacion"
+        android:layout_width="45dp"
+        android:layout_marginRight="@dimen/small_padding"
+        android:layout_marginLeft="@dimen/small_padding"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingRight="@dimen/small_padding"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_element"
+        android:text="-"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/racionesPlatoListItem"
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingRight="@dimen/small_padding"
+        android:layout_marginRight="@dimen/small_padding"
+        android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="?android:textColorPrimary"/>
+
+    <Button
+        android:id="@+id/buttonIncreaseRacion"
+        android:layout_width="45dp"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingRight="@dimen/small_padding"
+        android:layout_marginRight="@dimen/small_padding"
+        android:background="@drawable/rounded_element"
+        android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="45dp"
+        android:backgroundTint="?attr/elementBackground"
+        android:text="+"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttonDeletePlato"
+        style="@style/TransparentButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/small_padding"
+        android:layout_marginLeft="@dimen/small_padding"
+        android:drawableStart="@drawable/delete_24px"
+        android:drawableLeft="@drawable/delete_24px" />
+
+</LinearLayout>

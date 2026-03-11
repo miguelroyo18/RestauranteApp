@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/textPedidoView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/stateView"
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingRight="@dimen/small_padding"
+        android:layout_marginRight="@dimen/small_padding"
+        android:layout_marginLeft="@dimen/small_padding"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_element"
+        android:textSize="16sp"
+        android:textColor="?android:textColorPrimary" />
+
+    <TextView
+        android:id="@+id/priceView"
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingRight="@dimen/small_padding"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_element"
+        android:textSize="16sp"
+        android:textColor="?android:textColorPrimary"/>
+
+
+</LinearLayout>

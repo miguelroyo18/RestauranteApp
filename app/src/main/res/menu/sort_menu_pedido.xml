@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/sort_by_nombre_cliente"
+    android:title="Nombre del cliente" />
+<item
+    android:id="@+id/sort_by_num_movil"
+    android:title="Número de móvil" />
+<item
+    android:id="@+id/sort_by_fecha_hora"
+    android:title="Fecha y hora" />
+</menu>

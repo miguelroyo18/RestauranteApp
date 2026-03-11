@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias">
+        <item>Primero</item>
+        <item>Segundo</item>
+        <item>Postre</item>
+    </string-array>
+
+    <string-array name="estado">
+        <item>Solicitado</item>
+        <item>Preparado</item>
+        <item>Recogido</item>
+    </string-array>
+</resources>
