@@ -6,9 +6,10 @@
 
 **A native Android application designed for managing restaurant menus and tracking customer orders.**
 
-![Platos](docs/platos.jpg)
-
-![Pedidos](docs/pedidos.jpg)
+<p align="center">
+  <img src="docs/platos.jpg" alt="Platos" width="45%" />
+  <img src="docs/pedidos.jpg" alt="Pedidos" width="45%" />
+</p>
 
 This project is a complete local order management system. It allows a restaurant to maintain a digital catalog of its dishes, manage incoming customer orders through various preparation stages, and send automated updates directly to customers.
 
